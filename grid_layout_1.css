@@ -13,11 +13,11 @@ html, body {
 
 
 
-.pagecontainer {
+.container {
 	display: grid;
-	grid-template-areas: "header header header header header header"
-	"side main main main main none"
-	"footer footer footer footer footer footer ";
+	grid-template-areas: "header header"
+	"main main"
+	"footer footer";
 }
 
 
@@ -31,7 +31,7 @@ header {
 main {
 	grid-area: main;
 	background-color: beige;
-	height: 1000px;
+	height: 88vh;
 }
 
 footer {
@@ -39,6 +39,6 @@ footer {
 	background-color: navy;
 }
 
-side {
-	grid-area: side;
+.blue {
+	background-color: blueviolet;
 }
