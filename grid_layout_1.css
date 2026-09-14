@@ -7,9 +7,13 @@ html, body {
 * {
   box-sizing: border-box;
   font-family: sans-serif;
-  color: red;
+  
 }
 /* -------------------------- */
+
+img {
+	width: 30%;
+}
 
 
 
@@ -23,6 +27,7 @@ html, body {
 
 
 header {
+	display: flex;
 	background-color: gray;
 	grid-area: header;
 	height: 72px;
@@ -31,7 +36,7 @@ header {
 main {
 	grid-area: main;
 	background-color: beige;
-	height: 88vh;
+	height: 300vh;
 }
 
 footer {
@@ -39,6 +44,10 @@ footer {
 	background-color: navy;
 }
 
-.blue {
-	background-color: blueviolet;
+.sectionblock {
+	background-color: white;
+}
+
+.sectionitem {
+
 }
