@@ -7,6 +7,17 @@ html, body {
 * {
   box-sizing: border-box;
   font-family: sans-serif;
-  color: white;
 }
-/*--------------------*/  
+/*--------------------*/
+
+
+header {
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  color: whitesmoke;
+} 
+
+li a {
+  text-decoration: none;
+}

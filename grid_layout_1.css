@@ -1,0 +1,53 @@
+/* Boiler plate code below */
+html, body {
+	margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+/* -------------------------- */
+
+img {
+	width: 30%;
+}
+
+
+
+.container {
+	display: grid;
+	grid-template-areas: "header header"
+	"main main"
+	"footer footer";
+}
+
+
+
+header {
+	display: flex;
+	background-color: gray;
+	grid-area: header;
+	height: 72px;
+}
+
+main {
+	grid-area: main;
+	background-color: beige;
+	height: 300vh;
+}
+
+footer {
+	grid-area: footer;
+	background-color: navy;
+}
+
+.sectionblock {
+	background-color: white;
+}
+
+.sectionitem {
+
+}
