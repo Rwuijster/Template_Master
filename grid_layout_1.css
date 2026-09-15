@@ -12,7 +12,7 @@ html, body {
 /* -------------------------- */
 
 img {
-	width: 30%;
+	width: 100%;
 }
 
 
@@ -24,30 +24,27 @@ img {
 	"footer footer";
 }
 
+.sectionblock {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 
 
 header {
 	display: flex;
 	background-color: gray;
 	grid-area: header;
-	height: 72px;
+	height: 15vh;
 }
 
 main {
 	grid-area: main;
-	background-color: beige;
+	background-color: white;
 	height: 300vh;
 }
 
 footer {
 	grid-area: footer;
 	background-color: navy;
-}
-
-.sectionblock {
-	background-color: white;
-}
-
-.sectionitem {
-
 }
