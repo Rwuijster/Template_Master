@@ -1,0 +1,90 @@
+/* Boiler plate code below */
+html, body {
+	margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif; 
+}
+
+/* Makes images behave normally as a box */
+img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+/* -------------------------- */
+
+img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+.container {
+	display: grid;
+	grid-template-areas: "header header"
+	"main main"
+	"footer footer";
+}
+
+.sectioncontainer {
+	display: grid;
+	grid-template-columns: repeat(12, [col-start] 1fr);
+	padding: min(2em, 4%);
+	gap: max(1em, 2%);
+	background-color: lightblue;
+}
+
+.sectionitem {
+	grid-column: 1 / span 12;
+	background-color: seagreen;
+	border-radius: 10px;
+}
+
+
+header {
+	display: flex;
+	background-color: gray;
+	grid-area: header;
+	height: 15vh;
+}
+
+main {
+	grid-area: main;
+	background-color: white;
+	height: 300vh;
+}
+
+footer {
+	grid-area: footer;
+	background-color: navy;
+}
+
+
+
+@media (min-width: 900px) {
+	.sectionone {
+		grid-column: span 8;
+	}
+
+	.sectiontwo {
+		grid-column: span 4;
+	}
+}
+
+@media (min-width: 1400px) {
+	.sectionone {
+		grid-column: 2 /span 7;
+	}
+
+	.sectiontwo {
+		grid-column: span 3;
+	}
+
+}
