@@ -38,6 +38,7 @@ img {
 	grid-template-columns: repeat(12, [col-start] 1fr);
 	padding: min(2em, 4%);
 	gap: max(1em, 2%);
+	background-color: lightblue;
 }
 
 .sectionitem {
@@ -68,15 +69,22 @@ footer {
 
 
 @media (min-width: 900px) {
-	.sectionitem {
-		grid-column:span 6;
+	.sectionone {
+		grid-column: span 8;
+	}
+
+	.sectiontwo {
+		grid-column: span 4;
 	}
 }
 
 @media (min-width: 1400px) {
-	.sectioncontainer
-	{
-		padding-left: 15%;
-		padding-right: 15%;
+	.sectionone {
+		grid-column: 2 /span 7;
 	}
+
+	.sectiontwo {
+		grid-column: span 3;
+	}
+
 }
