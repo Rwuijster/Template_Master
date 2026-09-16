@@ -1,0 +1,33 @@
+/* Boiler plate code below */
+html, body {
+	margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif; 
+}
+
+/* Makes images behave normally as a box */
+img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+/* -------------------------------- */
+
+
+.contactform {
+	display: flex;
+	background-color: lightblue;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid black;
+}
+
+.contactform > * {
+}
+
