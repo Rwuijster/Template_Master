@@ -90,12 +90,11 @@ footer {
 
 
 @media (min-width: 1400px) {
-	.sectionone {
-		grid-column: 2 /span 7;
-	}
+.contentone {
+	grid-column: span 24;
+}
 
-	.sectiontwo {
-		grid-column: span 3;
-	}
-
+.contenttwo {
+	grid-column: span 12;
+}
 }
