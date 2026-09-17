@@ -1,5 +1,5 @@
 /* Boiler plate code below */
-html, body {
+html, body, ul {
 	margin:0;
   padding:0;
 }
@@ -7,6 +7,7 @@ html, body {
 * {
   box-sizing: border-box;
   font-family: sans-serif; 
+  color: orangered;
 }
 
 /* Makes images behave normally as a box */
@@ -18,4 +19,41 @@ img {
 }
 
 /* -------------------------- */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.cards {
+	display: grid;
+	list-style: none;
+	grid-template-columns: repeat(12, [col-start] 1fr);
+	background-color: lightblue;
+}
+
+.card-item {
+	grid-column: span 12;
+	background-color: darkblue;
+
+}
+
+header {
+	background-color: steelblue;
+}
+
+main {
+	background-color: lightgray;
+}
+
+footer {
+	background-color: forestgreen;
+}
+
+@media (min-width: 50rem) {
+	.card-item {
+		grid-column: span 4;
+	}
+}
 
