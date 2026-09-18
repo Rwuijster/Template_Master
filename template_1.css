@@ -43,6 +43,8 @@ section, footer {
 	border: 1px solid blue;
 }
 
+
+
 .textbox {
 	display: flex;
 	flex-direction: column;
@@ -71,6 +73,10 @@ section, footer {
 
 }
 
+footer .container {
+	align-items: flex-start;
+}
+
 header {
 	background-color: steelblue;
 }
@@ -91,5 +97,9 @@ main {
 		width: 100%;
 		max-width: 80rem;
 	}
+}
+
+@media (min-width: 1020px) {
+
 }
 
