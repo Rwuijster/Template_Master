@@ -85,7 +85,7 @@ list-style: none;
 .emblem-10-item {
 text-align: center;
 width: 100%;
-max-width: 32rem;
+max-width: 36rem;
 border:1px dashed green;
 }
 
@@ -136,7 +136,7 @@ main {
 	}
 
 	.emblem-10-item {
-		width: 33%;
+		width: 46%;
 	}
 
 
@@ -145,5 +145,8 @@ main {
 }
 
 @media (min-width: 1020px) {
+	.emblems-10 {
+		flex-wrap: nowrap;
+	}
 }
 
