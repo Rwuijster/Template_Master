@@ -1,0 +1,105 @@
+/* Boiler plate code below */
+html, body, ul {
+	margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif; 
+  color: orangered;
+}
+
+/* Makes images behave normally as a box */
+img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+/* Make headers grow with viewport width */
+h1, h2, h3 {
+	font-size: clamp(1.3rem, 2.4vw , 1.55rem);
+}
+
+/* -------------------------- */
+
+section, footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: clamp(1em, 5%, 2%);
+	padding-top: 1%;
+	padding-bottom: 1%;
+	
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 36rem;
+	align-items: center;
+	border: 1px solid blue;
+}
+
+
+
+.textbox {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	max-width: 60rem;
+}
+
+.testbox {
+	width: 100%;
+}
+
+.cards {
+	display: grid;
+	width: 100%;
+	list-style: none;
+	grid-template-columns: repeat(12, [col-start] 1fr);
+	background-color: lightblue;
+}
+
+.card-item {
+	grid-column: span 12;
+	background-color: darkblue;
+
+}
+
+footer .container {
+	align-items: flex-start;
+}
+
+header {
+	background-color: steelblue;
+}
+
+main {
+	background-color: lightgray;
+}
+
+.testbox {
+	background-color: darkred;
+}
+
+@media (min-width: 50rem) {
+	.card-item {
+		grid-column: span 4;
+	}
+	.container {
+		width: 100%;
+		max-width: 80rem;
+	}
+}
+
+@media (min-width: 1020px) {
+
+}
+
