@@ -41,6 +41,7 @@ section, footer {
 	max-width: 36rem;
 	align-items: center;
 	border: 1px solid blue;
+	background-color: white;
 }
 
 
@@ -51,7 +52,6 @@ section, footer {
 	align-content: center;
 	text-align: center;
 	width: 100%;
-	background-color: white;
 	max-width: 60rem;
 }
 
@@ -59,7 +59,7 @@ section, footer {
 	width: 100%;
 }
 
-.cards {
+.cards-10 {
 	display: grid;
 	width: 100%;
 	list-style: none;
@@ -67,13 +67,29 @@ section, footer {
 	background-color: lightblue;
 }
 
-.card-item {
+.card-10-item {
 	grid-column: span 12;
 	background-color: darkblue;
 
 }
 
-footer .container {
+.emblems-10 {
+display: flex;
+flex-start: row;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+list-style: none;
+}
+
+.emblem-10-item {
+text-align: center;
+width: 100%;
+max-width: 49rem;
+border:1px dashed green;
+}
+
+#footer-10 .container {
 	align-items: flex-start;
 }
 
@@ -84,6 +100,26 @@ header {
 main {
 	background-color: lightgray;
 }
+
+.footer-logo-container {
+	width: 100%;
+
+}
+
+.footer-logo-image {
+	height: 4rem;
+	width: 20rem;
+}
+
+.footer-links-container {
+
+}
+
+.footer-contact-container {
+
+}
+
+
 
 .testbox {
 	background-color: darkred;
