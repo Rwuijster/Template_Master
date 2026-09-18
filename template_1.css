@@ -6,8 +6,7 @@ html, body, ul {
 
 * {
   box-sizing: border-box;
-  font-family: sans-serif; 
-  color: orangered;
+  font-family: sans-serif;
 }
 
 /* Makes images behave normally as a box */
@@ -85,15 +84,17 @@ list-style: none;
 .emblem-10-item {
 text-align: center;
 width: 100%;
-max-width: 32rem;
+max-width: 36rem;
 border:1px dashed green;
 }
 
 #footer-10 .container {
 	align-items: flex-start;
+	color: white;
+	background-color: inherit;
 }
 
-header {
+header, footer {
 	background-color: #0b963c;
 }
 
@@ -113,6 +114,10 @@ main {
 
 .footer-links-container {
 
+}
+
+.list-wrapper {
+	list-style: none;
 }
 
 .footer-contact-container {
@@ -136,7 +141,7 @@ main {
 	}
 
 	.emblem-10-item {
-		width: 33%;
+		width: 46%;
 	}
 
 
@@ -145,5 +150,8 @@ main {
 }
 
 @media (min-width: 1020px) {
+	.emblems-10 {
+		flex-wrap: nowrap;
+	}
 }
 
