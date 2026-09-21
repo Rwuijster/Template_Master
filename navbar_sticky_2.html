@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>navbar_sticky_2</title>
     <link href="navbar_sticky_2.css" rel="stylesheet">
+    <script src="script.js" defer></script>
   </head>
 
   <body>
 
-    <button id="open-sidebar-button">
+    <button id="open-sidebar-button" onclick="openSidebar()">
       <img src="sidebar_button_open.svg" alt="sidebar button open" height="40px" width="40px"/>
     </button>
 
 
-        <nav>
+        <nav id="navbar">
           <ul>
-            <li><button id="close-sidebar-button"><img src="sidebar_button_close.svg" alt="sidebar button close" height="40px" width="40px"/></button></li>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()"><img src="sidebar_button_close.svg" alt="sidebar button close" height="40px" width="40px"/></button></li>
             <li class="home-li"><a class="active-link" href="#">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
          </ul>
        </nav>
+
+       <div id="menu-overlay" onclick="closeSidebar()"></div>
   </body>
