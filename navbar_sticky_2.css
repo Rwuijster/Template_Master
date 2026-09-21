@@ -20,7 +20,7 @@ html {
 
 /* Makes images behave normally as a box */
 img {
-	width: 100%;
+	width: 100%; 
 	height: 100%;
 	display: block;
 	object-fit: cover;
@@ -67,5 +67,52 @@ nav a.active-link {
 	border-bottom: 2px solid var(--text-color);
 }
 
-@media (min-width: 50rem) {
+#open-sidebar-button {
+	display: block;
+	background: none;
+	border: none;
+	padding: 1em;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+#close-sidebar-button {
+	background: none;
+	border: none;
+	padding: 1em;
+	cursor: pointer;
+}
+
+@media (max-width: 50rem) {
+	nav {
+		position: fixed;
+		top: 0;
+		/* By default nav is off-screen */
+		right: -100%;
+		height: 100vh;
+		width: min(15em, 100%);
+		z-index: 10;
+		border-left: 1px solid var(--hover-color);
+		transition: right 300ms ease-out;
+	}
+	nav.show {
+		right: 0;
+	}
+
+	nav ul {
+		width: 100%;
+		flex-direction: column;
+	}
+	nav a {
+		width: 100%;
+		padding-left: 2.5em;
+	}
+	nav a.active-link {
+		border-bottom: none;
+	}
+	nav .home-li {
+		margin-right: unset;
+	}
+
+}
 
