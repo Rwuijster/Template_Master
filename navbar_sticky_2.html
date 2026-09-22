@@ -10,20 +10,20 @@
 
   <body>
 
-    <button id="open-sidebar-button" onclick="openSidebar()">
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
       <img src="sidebar_button_open.svg" alt="sidebar button open" height="40px" width="40px"/>
     </button>
 
 
         <nav id="navbar">
           <ul>
-            <li><button id="close-sidebar-button" onclick="closeSidebar()"><img src="sidebar_button_close.svg" alt="sidebar button close" height="40px" width="40px"/></button></li>
-            <li class="home-li"><a class="active-link" href="#">Home</a></li>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar"><img src="sidebar_button_close.svg" alt="sidebar button close" height="40px" width="40px"/></button></li>
+            <li class="home-li"><a class="active-link" aria-current="page" href="#">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
          </ul>
        </nav>
 
-       <div id="menu-overlay" onclick="closeSidebar()"></div>
+       <div id="menu-overlay" onclick="closeSidebar()" aria-hidden="true"></div>
   </body>
