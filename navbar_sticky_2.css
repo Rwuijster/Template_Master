@@ -1,7 +1,7 @@
 /* Boiler plate code below */
 :root {
-	--primary-color: green;
-	--hover-color: #0550e6;
+	--primary-color: #338000ff;
+	--hover-color: #3fa300ff;
 	--accent-color: #0440b8;
 	--text-color: white;
 	--text-color-inverse: black;
@@ -32,6 +32,19 @@ h1, h2, h3 {
 }
 
 /* ------------------------ */
+
+header {
+	align-items: center;
+}
+
+#header-logo-mobile {
+	height: 66px;
+	width: 120px;
+	display: none;
+	padding: 0em;
+	background: none;
+	border: none;
+}
 
 nav {
 	background-color: var(--primary-color);
@@ -94,8 +107,11 @@ nav a.active-link {
 }
 
 @media (max-width: 50rem) {
-	#open-sidebar-button, #close-sidebar-button {
+	#open-sidebar-button, #close-sidebar-button, #header-logo-mobile {
 		display: block;
+	}
+	header {
+		display: flex;
 	}
 	nav {
 		position: fixed;
