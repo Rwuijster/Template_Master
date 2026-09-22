@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 500"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="company_logo_1v3.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.77300001"
+     inkscape:cx="623.54462"
+     inkscape:cy="219.27555"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <defs
+     id="defs13" />
+  <!-- Background Circle -->
+  <!-- Inner Geometric Frame -->
+  <g
+     transform="matrix(0.56179496,0,0,0.57245516,-42.184356,75.650198)"
+     id="g13">
+    <!-- Base / Mound Shadow -->
+    <ellipse
+       cx="250"
+       cy="345"
+       rx="170"
+       ry="25"
+       fill="#d0d7de"
+       id="ellipse2" />
+    <!-- Left Supporting Monolith (Upright Stone) -->
+    <!-- Shadow Side -->
+    <path
+       d="m 130,340 15,-120 30,5 -5,120 z"
+       fill="#4a5568"
+       id="path2" />
+    <!-- Light Side -->
+    <path
+       d="m 145,220 30,5 15,115 -20,5 z"
+       fill="#718096"
+       id="path3" />
+    <!-- Center-Back Supporting Monolith (Depth element) -->
+    <path
+       d="m 230,335 5,-105 h 30 l 5,105 z"
+       fill="#2d3748"
+       id="path4" />
+    <!-- Right Supporting Monolith (Upright Stone) -->
+    <!-- Shadow Side -->
+    <path
+       d="m 310,345 15,-120 20,-5 15,120 z"
+       fill="#4a5568"
+       id="path5" />
+    <!-- Light Side -->
+    <path
+       d="m 325,225 30,-5 15,120 h -10 z"
+       fill="#a0aec0"
+       id="path6" />
+    <!-- Massive Capstone (Top Megalith) -->
+    <!-- Base Shadow beneath Capstone -->
+    <path
+       d="m 110,225 c 70,10 210,10 280,0 l -10,15 c -80,12 -190,12 -260,0 z"
+       fill="#1a202c"
+       opacity="0.6"
+       id="path7" />
+    <!-- Main Capstone Body (Facet Shadows) -->
+    <path
+       d="m 110,225 25,-55 125,-10 125,15 5,50 -15,15 -125,8 -130,-8 z"
+       fill="#718096"
+       id="path8" />
+    <!-- Capstone Highlighted Facets (Top/Front) -->
+    <path
+       d="m 135,170 125,-10 125,15 -35,20 -100,-5 -95,5 z"
+       fill="#cbd5e0"
+       id="path9" />
+    <path
+       d="m 155,195 95,-5 100,5 40,30 -140,23 -130,-8 z"
+       fill="#a0aec0"
+       id="path10" />
+    <!-- Stylized Grass / Ground Accents (Drenthe Nature Motif) -->
+    <path
+       d="m 100,345 q 20,-10 35,0 15,10 35,0"
+       fill="none"
+       stroke="#38a169"
+       stroke-width="6"
+       stroke-linecap="round"
+       id="path11" />
+    <path
+       d="m 330,345 q 20,-10 40,0 15,10 30,0"
+       fill="none"
+       stroke="#38a169"
+       stroke-width="6"
+       stroke-linecap="round"
+       id="path12" />
+    <path
+       d="m 210,348 q 40,-10 80,0"
+       fill="none"
+       stroke="#276749"
+       stroke-width="5"
+       stroke-linecap="round"
+       id="path13" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.7527px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:67.2589;opacity:1;fill:#338000"
+     x="324.0621"
+     y="162.35446"
+     id="text1"
+     transform="matrix(7.0504639,0,0,7.0504639,-2101.3342,-917.28032)"><tspan
+       x="324.0621"
+       y="162.35446"
+       id="tspan4">HUN-IT</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.0021px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#4d4d4d;stroke-width:3.7531"
+     x="179.17079"
+     y="297.06021"
+     id="text2"
+     transform="scale(1.0557966,0.94715214)"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="179.17079"
+       y="297.06021"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.0021px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;stroke-width:3.7531">Web designs </tspan><tspan
+       sodipodi:role="line"
+       x="179.17079"
+       y="354.56284"
+       id="tspan3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.0021px;font-family:Tahoma;-inkscape-font-specification:'Tahoma, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;stroke-width:3.7531" /></text>
+  <path
+     style="fill:#241c1c"
+     d="M 223.80336,236.09314 H 498.05951"
+     id="path1" />
+  <rect
+     style="fill:#225500;stroke:#225500;stroke-width:1.11456"
+     id="rect15"
+     width="308.66885"
+     height="1.2744403"
+     x="188.96913"
+     y="241.03276" />
+</svg>
