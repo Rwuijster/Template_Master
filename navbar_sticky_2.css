@@ -1,7 +1,7 @@
 /* Boiler plate code below */
 :root {
-	--primary-color: green;
-	--hover-color: #0550e6;
+	--primary-color: #338000ff;
+	--hover-color: #3fa300ff;
 	--accent-color: #0440b8;
 	--text-color: white;
 	--text-color-inverse: black;
@@ -34,7 +34,6 @@ h1, h2, h3 {
 /* ------------------------ */
 
 header {
-	background-color: var(--primary-color);
 	align-items: center;
 }
 
