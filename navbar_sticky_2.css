@@ -33,6 +33,20 @@ h1, h2, h3 {
 
 /* ------------------------ */
 
+header {
+	background-color: var(--primary-color);
+	align-items: center;
+}
+
+#header-logo-mobile {
+	height: 66px;
+	width: 120px;
+	display: none;
+	padding: 0em;
+	background: none;
+	border: none;
+}
+
 nav {
 	background-color: var(--primary-color);
 	border-bottom: 1px solid var(--hover-color);
@@ -94,8 +108,11 @@ nav a.active-link {
 }
 
 @media (max-width: 50rem) {
-	#open-sidebar-button, #close-sidebar-button {
+	#open-sidebar-button, #close-sidebar-button, #header-logo-mobile {
 		display: block;
+	}
+	header {
+		display: flex;
 	}
 	nav {
 		position: fixed;

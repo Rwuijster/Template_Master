@@ -1,5 +1,6 @@
 const navbar = document.getElementById("navbar");
 const openButton = document.getElementById("open-sidebar-button");
+const mobileBrandLogo = document.getElementById("mobile-logo-button");
 
 const media = window.matchMedia("(width < 800px)")
 
@@ -20,13 +21,16 @@ function updateNavbar(e) {
 function openSidebar() {
 	navbar.classList.add("show")
 	openButton.setAttribute("aria-expanded", "true")
-	navbar.removeAttribute("inert")	
+	navbar.removeAttribute("inert")
+	mobileBrandLogo.setAttribute("inert", "")
+
 }
 
 function closeSidebar() {
 	navbar.classList.remove("show")
 	openButton.setAttribute("aria-expanded", "false")
 	navbar.setAttribute("inert", "")
+	mobileBrandLogo.removeAttribute("inert");
 }
 
 
