@@ -3,8 +3,8 @@
 	--primary-color: #338000ff;
 	--hover-color: #3fa300ff;
 	--accent-color: #0440b8;
-	--text-color: white;
-	--text-color-inverse: black;
+	--text-color: black;
+	--text-color-inverse: white;
 }
 
 html {
@@ -32,9 +32,7 @@ h1, h2, h3 {
 }
 
 /* ------------------------ */
-
-header {
-	align-items: center;
+.header-container {
 }
 
 #header-logo-mobile {
@@ -106,11 +104,23 @@ nav a.active-link {
 
 }
 
+section {
+	height: 300vh;
+}
+
 @media (max-width: 50rem) {
 	#open-sidebar-button, #close-sidebar-button, #header-logo-mobile {
 		display: block;
 	}
+
+	.header-container {
+		display: flex;
+		width: 100%; 
+	}
 	header {
+		position: sticky;
+		background-color: white;
+		top: 0;
 		display: flex;
 	}
 	nav {
