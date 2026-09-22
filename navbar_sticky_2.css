@@ -2,9 +2,14 @@
 :root {
 	--primary-color: #338000ff;
 	--hover-color: #3fa300ff;
-	--accent-color: #0440b8;
-	--text-color: black;
-	--text-color-inverse: white;
+	--dark-color: #235d00ff;
+	--secondary-color: #ecececd9;
+	--tertiary-color: white;
+	--text-color-black: black;
+}
+
+body {
+	height: 300vh;
 }
 
 html {
@@ -32,8 +37,6 @@ h1, h2, h3 {
 }
 
 /* ------------------------ */
-.header-container {
-}
 
 #header-logo-mobile {
 	height: 66px;
@@ -65,7 +68,7 @@ nav .home-li{
 nav a {
 	display: flex;
 	text-decoration: none;
-	color: var(--text-color);
+	color: var(--tertiary-color);
 	padding: 1em 2em;
 	transition: background-color 150ms ease;
 }
@@ -104,24 +107,16 @@ nav a.active-link {
 
 }
 
-section {
-	height: 300vh;
-}
-
 @media (max-width: 50rem) {
 	#open-sidebar-button, #close-sidebar-button, #header-logo-mobile {
 		display: block;
 	}
-
-	.header-container {
-		display: flex;
-		width: 100%; 
-	}
 	header {
-		position: sticky;
-		background-color: white;
-		top: 0;
 		display: flex;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		background-color: var(--tertiary-color);
 	}
 	nav {
 		position: fixed;
